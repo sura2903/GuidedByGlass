@@ -1,0 +1,37 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 31
+    values:
+      - Button.lsc
+      - Echopark.hdr
+      - HandAutoLoop.js
+      - HandSwitcher.js
+      - Image 2.mat
+      - Image.mat
+      - Image.png
+      - ToggleController.js
+      - flat.ss_graph
+      - hello.fbx
+      - hello.fbx/.hidden
+      - hello.fbx/.hidden/hand_material.001
+      - hello.fbx/.hidden/white
+      - hello.fbx/Animations
+      - hello.fbx/Animations/Armature_ArmatureAction
+      - hello.fbx/Materials
+      - hello.fbx/Materials/hand_material.001
+      - hello.fbx/Meshes
+      - hello.fbx/Meshes/geo_hand_hand_material_0
+      - hello.fbx/hello
+      - love.fbx
+      - love.fbx/.hidden
+      - love.fbx/.hidden/hand_material.001
+      - love.fbx/.hidden/white
+      - love.fbx/Animations
+      - love.fbx/Animations/Armature_ArmatureAction
+      - love.fbx/Materials
+      - love.fbx/Materials/hand_material.001
+      - love.fbx/Meshes
+      - love.fbx/Meshes/geo_hand_hand_material_0
+      - love.fbx/love
+  options: 4

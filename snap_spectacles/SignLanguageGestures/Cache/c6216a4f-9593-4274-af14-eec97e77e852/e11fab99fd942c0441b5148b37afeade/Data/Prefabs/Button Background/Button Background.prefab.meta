@@ -1,0 +1,90 @@
+- !<AssetImportMetadata/c718e8fc-4dae-47a5-ad1d-7dc4d3c6c9cb>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> e68810ec-796a-4eee-b1e2-311b1d7cecdd
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> e68810ec-796a-4eee-b1e2-311b1d7cecdd
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData: {}
+  AssetDataMap:
+    ObjectPrefab: !<own> f4713852-d391-4f13-84d5-2138fe72c842
+  DependentFiles: []
+  ImporterSettings: !<AssetImporterSettings> {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/2ed63e3a-17c1-4529-8245-a7a0d3ddacaf>
+  PrefabRemaps: []
+  Name: Button Background
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -1.000000}
+    Rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children: []
+  Components:
+    - !<own> 76c5243d-2dba-4c19-954c-f437697d2887
+    - !<own> e48dca00-c80e-4387-9e55-c6c0e121c0aa
+- !<ObjectPrefab/5a7d2844-957b-47c8-93b3-0086ec8b415f>
+  PackagePath: ""
+  objects:
+    - !<own> 2ed63e3a-17c1-4529-8245-a7a0d3ddacaf
+  LazyLoading: false
+  RetainAssets: true
+- !<Image/76c5243d-2dba-4c19-954c-f437697d2887>
+  PrefabRemaps: []
+  Name: Image
+  Enabled: true
+  RenderOrder: 3
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 900e91b0-fa3a-4561-a4c7-79244516e5a8
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScreenTransform/e48dca00-c80e-4387-9e55-c6c0e121c0aa>
+  PrefabRemaps: []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: -1.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<ObjectPrefabAssetData/f4713852-d391-4f13-84d5-2138fe72c842>
+  SourceRemaps:
+    - 69a5bf30-2643-4e7c-a978-247d3d49804e: e48dca00-c80e-4387-9e55-c6c0e121c0aa
+    - 8ca06b85-82ae-4957-8dc8-a92e89a6f44e: 76c5243d-2dba-4c19-954c-f437697d2887
+    - e68810ec-796a-4eee-b1e2-311b1d7cecdd: 5a7d2844-957b-47c8-93b3-0086ec8b415f
+    - f0d59135-12e2-4df5-9e70-a342acb93768: 2ed63e3a-17c1-4529-8245-a7a0d3ddacaf
+  SourceState: !<own> 5a7d2844-957b-47c8-93b3-0086ec8b415f

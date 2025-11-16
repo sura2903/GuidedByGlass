@@ -1,0 +1,7 @@
+data:
+  externalSources:
+    - 12c451b0-bd85-4d6c-8e50-5b340c63f806: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/PBRMaterial/Resources/pbr.ss_graph
+    - 39733392-62ee-429f-a63c-9ea4c772f83f: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/Meshes/Resources/Box.mesh
+    - 4124fc3c-4894-4e97-a17e-afe464f23a12: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/Resources/Base.png
+    - b68a938b-2f39-4ff8-b23a-f1b648fda2da: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/Resources/Normal.png
+    - b8cd7776-af5a-4e1b-8883-8a51e8f6b9de: /Applications/Lens Studio.app/Contents/JsPlugins/PresetsRegistry/Assets/Resources/MaterialParams.png

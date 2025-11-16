@@ -1,0 +1,152 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"label":       "Shape",
+                	"bindingType": "defineSelect",
+                	"values":      
+                	[
+                		
+                		{
+                			"value": "NODE_25_DROPLIST_ITEM 0",
+                			"label": "Line"
+                		},
+                		
+                		{
+                			"value": "NODE_25_DROPLIST_ITEM 1",
+                			"label": "Circle"
+                		}
+                	],
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "spacing",
+                	"label":       "Spacing",
+                	"widget":      "slider",
+                	"min":         1,
+                	"max":         20,
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "instensity",
+                	"label":       "Intensity",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "radius",
+                	"label":       "Radius",
+                	"widget":      "slider",
+                	"min":         1,
+                	"max":         30,
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "baseColor",
+                	"label":       "baseColorOpacity",
+                	"widget":      "color",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"label": "Gradient",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "color1",
+                    	"label":       "Color1",
+                    	"widget":      "color",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "color2",
+                    	"label":       "Color2",
+                    	"widget":      "color",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "color3",
+                    	"label":       "Color3",
+                    	"widget":      "color",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "color4",
+                    	"label":       "Color4",
+                    	"widget":      "color",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Script Data",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "floatArray",
+                    	"label":       "Bands Array",
+                    	"widget":      "floatarray",
+                    	"sortIndex":   "10",
+                    	"hint":        ""
+                    },
+                {
+                	"widget": "group_end"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "Mesh3d",
+	
+	"extraDefines":
+	[
+		
+	]
+}

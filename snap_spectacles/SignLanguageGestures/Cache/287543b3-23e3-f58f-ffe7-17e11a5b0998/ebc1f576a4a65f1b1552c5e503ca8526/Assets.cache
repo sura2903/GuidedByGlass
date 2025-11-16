@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    f86a25bb-42a1-4110-bc18-8243832cdaf3: 287543b3-23e3-f58f-ffe7-17e11a5b0998/ebc1f576a4a65f1b1552c5e503ca8526/Data/Poppins-Medium.ttf
+  Assets:
+    - !<Font/f86a25bb-42a1-4110-bc18-8243832cdaf3>
+      PackagePath: ""
+  SourceHash: ebc1f576a4a65f1b1552c5e503ca8526
+  FileHash: b175ed99a0c6b41ed30f8726c24700b3
+  NativePackageItems:
+    []

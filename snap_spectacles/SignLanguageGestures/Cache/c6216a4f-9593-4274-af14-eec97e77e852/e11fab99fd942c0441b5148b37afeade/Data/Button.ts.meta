@@ -1,0 +1,157 @@
+- !<AssetImportMetadata/fc730b59-5c52-4969-a013-693fe91c4264>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d1e61f97-6cb3-4de5-81ca-6f4a47d28933
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d1e61f97-6cb3-4de5-81ca-6f4a47d28933
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData: {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 18cceff8-3241-4888-9445-b35fac7fb525
+  DependentFiles: []
+  ImporterSettings: !<AssetImporterSettings> {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/18cceff8-3241-4888-9445-b35fac7fb525>
+  SvgIcon: "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11 8H16H21C25.4183 8 29 11.5817 29 16C29 20.4183 25.4183 24 21 24H11C6.58172 24 3 20.4183 3 16C3 11.5817 6.58172 8 11 8Z\" stroke=\"#D0DAE6\" stroke-width=\"2\"/>\n<rect x=\"6\" y=\"11\" width=\"20\" height=\"10\" rx=\"5\" fill=\"#D0DAE6\"/>\n</svg>\n"
+  SetupScript:
+    code: ""
+  Description: "Button\n\nDescription:\nThe Button Custom Component is a UI element for interactive buttons. Button CC allows you to fill it with label and icon.\nYou can also customize animations, colors and scale.\n\nUsage:\n\nAdd CC to a SceneObject under the Orthographic Camera.\n\nAPI:\n\ndefaultBackgroundColor: vec4 - Background's color in the default state.\n\npressedBackgroundColor: vec4 - Background's color in the pressed state.\n\ndisabledBackgroundColor: vec4 - Background's color in the disabled state.\n\ndefaultLabelColor: vec4 - Label's color in the default state.\n\npressedLabelColor: vec4 - Label's color in the pressed state.\n\ndisabledLabelColor: vec4 - Label's color in the disabled state.\n\nanimtionType: number - Type of the animation on pressing. 0 - None, 1 - Bounce, 2 - Squish, 3 - Transform.\n\nrenderOrder: number - Initial button's render order.\n\ntextSize: number - Size of the TextComponent.\n\nbuttonCenter: vec2 - Button's center position.\n\nbuttonScale: number - Button's scale ratio.\n\nbackgroundEnabled: boolean - Whether the background is enabled.\n\n(readonly) textComponent - TextComponent of the label.\n\n(readonly) screenTransform - Parent ScreenTransform.\n\n(readonly) backgroundScreenTransform - ScreenTransform of the background.\n\nisPressed(): boolean - Returns whether the button is pressed at the moment.\n\nisActive(): boolean - Returns whether the button is active at the moment.\n\nenableInteractable(): void - Enables button's InteractionComponent.\n\ndisableInteractable(): void - Disables button's InteractionComponent.\n\nsetTransformType(type: number, defaultValue, pressedValue, disabledValue) - Sets transform animation type. Types: 0 - Offset Position, 1 - Anchor Position, 2 - Rotation, 3 - Scale.\n\nEvents:\n\nonEnabledInteractable\nonDisabledInteractable\nonPressUp\nonPressDown\nonPress\n\nEvents Usage:\n\nscript.onEnabledInteractable.add(callback);\n\nscript.onPress.add(callback);"
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 1
+  ComponentUid: 17d29788-82f4-4659-a98a-b20ba007a971
+  ExportUid: 5f9970f6-2b57-4f7a-94aa-f45632f86d65
+  ScriptInputsHidden:
+    _renderOrder: false
+    backgroundColor: false
+    backgroundPrefab: true
+    buttonColor: false
+    callbackType: false
+    center: false
+    content: false
+    customFunctionScript: false
+    customScale: false
+    editDebugSettings: false
+    eventCallbacks: false
+    fitBackground: false
+    iconAlignment: false
+    iconInLabelWithIcon: false
+    iconInOnlyIcon: false
+    iconPrefab: true
+    interactable: false
+    labelColorInLabelOnly: false
+    labelColorInLabelWithIcon: false
+    labelInLabelWithIcon: false
+    labelInOnlyLabel: false
+    onPressBehaviors: false
+    onPressCustomTriggers: false
+    onPressDownBehaviors: false
+    onPressDownCustomTriggers: false
+    onPressDownFunctions: false
+    onPressFunctions: false
+    onPressUpBehaviors: false
+    onPressUpCustomTriggers: false
+    onPressUpFunctions: false
+    printDebugStatements: false
+    printWarningStatements: false
+    scale: false
+    setupTransform: false
+    textPrefab: true
+  ScriptTypesHidden: {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - editDebugSettings: false
+      printDebugStatements: false
+      printWarningStatements: true
+      interactable: false
+      setupTransform: false
+      fitBackground: false
+      center: !<Vec2> {x: 0.000000, y: 0.000000}
+      scale: !<float> 1.000000
+      customScale: !<float> 1.000000
+      content: 0
+      labelInOnlyLabel: ""
+      iconInOnlyIcon: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      labelInLabelWithIcon: ""
+      iconInLabelWithIcon: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      iconAlignment: 0
+      buttonColor: 0
+      labelColorInLabelOnly: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+      labelColorInLabelWithIcon: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      backgroundColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      _renderOrder: 0
+      eventCallbacks: false
+      callbackType: 0
+      onPressDownBehaviors: !<reference.ScriptComponent[]> []
+      onPressUpBehaviors: !<reference.ScriptComponent[]> []
+      onPressBehaviors: !<reference.ScriptComponent[]> []
+      onPressDownCustomTriggers: !<string[]> []
+      onPressUpCustomTriggers: !<string[]> []
+      onPressCustomTriggers: !<string[]> []
+      customFunctionScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      onPressDownFunctions: !<string[]> []
+      onPressUpFunctions: !<string[]> []
+      onPressFunctions: !<string[]> []
+      textPrefab: !<reference.ObjectPrefab> 13250fcc-fdf3-4755-b9b4-67d29dae7c2c
+      iconPrefab: !<reference.ObjectPrefab> c05c6bd8-b8d7-43bf-874e-06d208be1959
+      backgroundPrefab: !<reference.ObjectPrefab> e68810ec-796a-4eee-b1e2-311b1d7cecdd
+  ScriptTypes:
+    - {}
+  InputLines:
+    - // @input bool editDebugSettings
+    - // @ui {"widget":"group_start", "label":"Debug Statements", "showIf":"editDebugSettings"}
+    - // @input bool printDebugStatements = "false" {"label":"Print Info"}
+    - // @input bool printWarningStatements = "true" {"label":"Print Warnings"}
+    - // @ui {"widget":"group_end"}
+    - // @ui {"widget":"separator"}
+    - // @input bool interactable
+    - // @ui {"widget":"separator"}
+    - // @input bool setupTransform
+    - // @input bool fitBackground {"showIf":"setupTransform", "showIfValue":false}
+    - // @ui {"widget":"group_start", "label":"Button Transform", "showIf":"setupTransform"}
+    - // @input vec2 center
+    - // @input float scale = 1 {"widget":"combobox", "values":[{"label":"Extra Small", "value":0.5}, {"label":"Small", "value":0.75}, {"label":"Medium", "value":1}, {"label":"Large", "value":1.25}, {"label":"Custom", "value":0}]}
+    - // @input float customScale = 1 {"showIf":"scale", "showIfValue":0}
+    - // @ui {"widget":"group_end"}
+    - // @ui {"widget":"separator"}
+    - // @input int content {"widget":"combobox", "values":[{"label":"Only Label", "value":0}, {"label":"Only Icon", "value":1}, {"label":"Label with Icon", "value":2}]}
+    - // @input string labelInOnlyLabel {"label":"Label", "showIf":"content", "showIfValue":0}
+    - // @input Asset.Texture iconInOnlyIcon {"label":"Icon", "showIf":"content", "showIfValue":1}
+    - // @input string labelInLabelWithIcon {"label":"Label", "showIf":"content", "showIfValue":2}
+    - // @input Asset.Texture iconInLabelWithIcon {"label":"Icon", "showIf":"content", "showIfValue":2}
+    - // @input int iconAlignment {"widget":"combobox", "values":[{"label":"Right", "value":0}, {"label":"Left", "value":1}], "showIf":"content", "showIfValue":2}
+    - // @ui {"widget":"separator"}
+    - // @input int buttonColor {"widget":"combobox", "values":[{"label":"Default", "value":0}, {"label":"Disabled", "value":1}, {"label":"Primary", "value":2}, {"label":"Secondary", "value":3}, {"label":"Custom", "value":4}]}
+    - // @ui {"widget":"group_start", "label":"Custom Color", "showIf":"buttonColor", "showIfValue":4}
+    - // @input vec4 labelColorInLabelOnly {"label":"Label Color", "widget":"color", "showIf":"content", "showIfValue":0}
+    - // @input vec4 labelColorInLabelWithIcon = "{1.0, 1.0, 1.0, 1.0}" {"label":"Label Color", "widget":"color", "showIf":"content", "showIfValue":2}
+    - // @input vec4 backgroundColor = "{0.0, 0.0, 0.0, 1.0}" {"widget":"color"}
+    - // @ui {"widget":"group_end"}
+    - // @ui {"widget":"separator"}
+    - // @input int _renderOrder {"hint":"This Render Order will be applied to the background. A +1 will be used for text/icons."}
+    - // @ui {"widget":"separator"}
+    - // @input bool eventCallbacks
+    - // @ui {"widget":"group_start", "label":"Event Callbacks", "showIf":"eventCallbacks"}
+    - // @input int callbackType = "0" {"widget":"combobox", "values":[{"label":"None", "value":0}, {"label":"Behavior Script", "value":1}, {"label":"Behavior Custom", "value":2}, {"label":"Custom Function", "value":3}]}
+    - // @input Component.ScriptComponent[] onPressDownBehaviors {"showIf":"callbackType", "showIfValue":1}
+    - // @ui {"widget":"separator", "showIf":"callbackType", "showIfValue":1}
+    - // @input Component.ScriptComponent[] onPressUpBehaviors {"showIf":"callbackType", "showIfValue":1}
+    - // @ui {"widget":"separator", "showIf":"callbackType", "showIfValue":1}
+    - // @input Component.ScriptComponent[] onPressBehaviors {"showIf":"callbackType", "showIfValue":1}
+    - // @input string[] onPressDownCustomTriggers {"showIf":"callbackType", "showIfValue":2}
+    - // @ui {"widget":"separator", "showIf":"callbackType", "showIfValue":2}
+    - // @input string[] onPressUpCustomTriggers {"showIf":"callbackType", "showIfValue":2}
+    - // @ui {"widget":"separator", "showIf":"callbackType", "showIfValue":2}
+    - // @input string[] onPressCustomTriggers {"showIf":"callbackType", "showIfValue":2}
+    - // @input Component.ScriptComponent customFunctionScript {"showIf":"callbackType", "showIfValue":3}
+    - // @ui {"widget":"separator", "showIf":"callbackType", "showIfValue":3}
+    - // @input string[] onPressDownFunctions {"showIf":"callbackType", "showIfValue":3}
+    - // @ui {"widget":"separator", "showIf":"callbackType", "showIfValue":3}
+    - // @input string[] onPressUpFunctions {"showIf":"callbackType", "showIfValue":3}
+    - // @ui {"widget":"separator", "showIf":"callbackType", "showIfValue":3}
+    - // @input string[] onPressFunctions {"showIf":"callbackType", "showIfValue":3}
+    - // @ui {"widget":"group_end"}
+    - // @input Asset.ObjectPrefab textPrefab
+    - // @input Asset.ObjectPrefab iconPrefab
+    - // @input Asset.ObjectPrefab backgroundPrefab

@@ -1,0 +1,315 @@
+- !<AssetCache>
+  AssetFiles:
+    00f9c113-406c-4f42-963e-90fedfb6b63d: b0aedd75-373c-7b53-e989-7218d24ecd19/7394412c2cf13d45d06b12b7de7169ec/Data/beats_material.ss_graph
+  Assets:
+    - !<ShaderGraphPass/00f9c113-406c-4f42-963e-90fedfb6b63d>
+      PackagePath: ""
+      DefaultDefines:
+        - NODE_25_DROPLIST_ITEM 0
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_Exponent_N037:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Input0_N028:
+          typeIdx: 5
+          value: {x: 1.000000, y: 0.999969, z: 0.999985, w: 1.000000}
+        Port_Input1_N021:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N023:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N003:
+          typeIdx: 1
+          value: 2.000000
+        Port_Intensity_N037:
+          typeIdx: 1
+          value: 1.000000
+        Port_Normal_N037:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+        Port_Position0_N036:
+          typeIdx: 1
+          value: 0.000000
+        Port_Position1_N036:
+          typeIdx: 1
+          value: 0.250000
+        Port_Position2_N036:
+          typeIdx: 1
+          value: 0.430000
+        Port_Position3_N036:
+          typeIdx: 1
+          value: 1.000000
+        Port_PrevWorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Value3_N014:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N017:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N014:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N017:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Shape
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Line
+                mType: DefineSelectValue
+                mName: NODE_25_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Circle
+                mType: DefineSelectValue
+                mName: NODE_25_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Spacing
+            mType: Property
+            mName: spacing
+            mWidget: slider
+            mHint: "Property: spacing"
+            mMin: 1.000000
+            mMax: 20.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Intensity
+            mType: Property
+            mName: instensity
+            mWidget: spinbox
+            mHint: "Property: instensity"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Radius
+            mType: Property
+            mName: radius
+            mWidget: slider
+            mHint: "Property: radius"
+            mMin: 1.000000
+            mMax: 30.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: baseColorOpacity
+            mType: Property
+            mName: baseColor
+            mWidget: color
+            mHint: "Property: baseColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Gradient
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Color1
+            mType: Property
+            mName: color1
+            mWidget: color
+            mHint: "Property: color1"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Color2
+            mType: Property
+            mName: color2
+            mWidget: color
+            mHint: "Property: color2"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Color3
+            mType: Property
+            mName: color3
+            mWidget: color
+            mHint: "Property: color3"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Color4
+            mType: Property
+            mName: color4
+            mWidget: color
+            mHint: "Property: color4"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Script Data
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Bands Array
+            mType: Property
+            mName: floatArray
+            mWidget: floatarray
+            mHint: "Property: floatArray"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: Mesh3d
+      ShaderPath: b0aedd75-373c-7b53-e989-7218d24ecd19/7394412c2cf13d45d06b12b7de7169ec/Data/b01d0f7/beats_material.glsl
+      Defines:
+        []
+      Properties:
+        {}
+  SourceHash: 7394412c2cf13d45d06b12b7de7169ec
+  FileHash: c3d42f23e303ee04cb9a239a473bccce
+  NativePackageItems:
+    []

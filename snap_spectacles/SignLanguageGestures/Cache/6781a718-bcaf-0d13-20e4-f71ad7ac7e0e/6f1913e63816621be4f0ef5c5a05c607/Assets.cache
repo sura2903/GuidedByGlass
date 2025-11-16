@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    958310b5-81af-40ed-80ce-226c91fcee4e: 6781a718-bcaf-0d13-20e4-f71ad7ac7e0e/6f1913e63816621be4f0ef5c5a05c607/Data/Surprises To Dance To 16K - FIle Audio Track.mp3
+  Assets:
+    - !<FileAudioTrack/958310b5-81af-40ed-80ce-226c91fcee4e>
+      PackagePath: ""
+  SourceHash: 6f1913e63816621be4f0ef5c5a05c607
+  FileHash: 98c79845f43e59f6258726eda8720cfa
+  NativePackageItems:
+    []

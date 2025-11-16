@@ -1,0 +1,85 @@
+- !<AssetImportMetadata/e7c3fabe-52cc-4121-b333-eaf3621633be>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> b035c101-b081-4dce-a52c-f95d9c717b90
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> b035c101-b081-4dce-a52c-f95d9c717b90
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> cf3c6c31-8a22-437f-9de1-2e60a32df7c7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/cf3c6c31-8a22-437f-9de1-2e60a32df7c7>
+  SvgIcon: ""
+  SetupScript:
+    code: |-
+      // ToggleController.js
+      
+      // @input Component.ScriptComponent handSwitcher
+      
+      var isLove = false;
+      
+      function setHello() {
+          if (!script.handSwitcher || !script.handSwitcher.api) {
+              print("ToggleController: no HandSwitcher");
+              return;
+          }
+          script.handSwitcher.api.showHello();
+          isLove = false;
+      }
+      
+      function setLove() {
+          if (!script.handSwitcher || !script.handSwitcher.api) {
+              print("ToggleController: no HandSwitcher");
+              return;
+          }
+          script.handSwitcher.api.showLove();
+          isLove = true;
+      }
+      
+      function toggle() {
+          if (isLove) {
+              setHello();
+          } else {
+              setLove();
+          }
+          print("ToggleController: toggled, isLove = " + isLove);
+      }
+      
+      // expose for button
+      script.api.toggle   = toggle;
+      script.api.setHello = setHello;
+      script.api.setLove  = setLove;
+      
+      // tap anywhere on screen to toggle
+      var tapEvent = script.createEvent("TapEvent");
+      tapEvent.bind(toggle);
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: be467617-d645-4946-9a7a-b6fb0cf39547
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    handSwitcher: false
+    toggleButton: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - handSwitcher: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      toggleButton: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
