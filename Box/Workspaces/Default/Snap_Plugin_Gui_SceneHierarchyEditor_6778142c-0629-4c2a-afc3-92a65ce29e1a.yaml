@@ -1,0 +1,12 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 1
+    values:
+      - beeed100-0c8c-4216-b895-5f33b489f575
+  options: 4
+PinnedEntities:
+  type: uuids
+  value:
+    size: 0
+  options: 4
