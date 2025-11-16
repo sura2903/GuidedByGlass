@@ -6,7 +6,7 @@ We used:
 Android Studio,
 meshy.ai,
 Unity,
-Lens Studio,
+Lens Studio
 
 ChatGPT was used for debugging
 
